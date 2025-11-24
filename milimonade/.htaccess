@@ -7,5 +7,4 @@ RewriteBase /milimonade/
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 
-# Todo lo demás → index.php
 RewriteRule ^(.*)$ index.php/$1 [PT,L]
